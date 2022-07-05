@@ -6,11 +6,12 @@
   "author": "Kevin Kuhn <kmulinarik@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "npx nodemon src/index.js",
     "postinstall": "ls"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
