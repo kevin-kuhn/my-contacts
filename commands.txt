@@ -1,0 +1,15 @@
+download image => docker pull postgres
+
+create container => docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres
+
+exec container => docker exec -it pg bash
+
+para logar no postgres => psql -U root -> aqui executo meus comandos sql
+
+para acessar base de dados => \l
+
+para conectar a uma base de dados => \c mycontacts
+
+para listar tabelas na base de dados => \dt
+
+
